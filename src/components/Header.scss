@@ -1,0 +1,29 @@
+$white-color: #FFFFFF;
+
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    color: $white-color;
+    padding: 50px 80px;
+    .headerLogo {
+        display: flex;
+        gap: 10px;
+    }
+    .headerLink {
+        display: flex;
+        gap: 50px;
+        text-decoration: none;
+        list-style-type: none;
+        color: $white-color;
+        font-size: 18px;
+        .homeLink {
+            border-bottom: 1px solid $white-color;
+            padding-bottom: 10px;
+        }
+        .listLink:hover{
+            border-bottom: 1px solid $white-color;
+            padding-bottom: 10px; 
+        }
+    }
+}

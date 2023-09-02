@@ -1,0 +1,23 @@
+.menuList {
+    display: flex;
+    gap: 20px;
+    background-color: #FFFFFF;
+    padding: 40px 50px;
+    line-height: 1.8;
+    .menuHeader {
+        color: #1A6692;
+        font-size: 1.3rem;
+        font-weight: 400;
+        margin-bottom: 15px;
+    }
+    .menuInfo {
+        color: #626364;
+        margin: 0;
+        padding: 0;
+    }
+    .menuPrice {
+        font-size: 1.25rem;
+        color: #2F956D;
+    }
+
+}

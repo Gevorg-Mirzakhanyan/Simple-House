@@ -1,5 +1,5 @@
 import React from "react";
-import './Header.css'
+import './Header.scss'
 import imgHeader from 'C:/Users/Lenovo/Desktop/react-template/src/img/simple-house-01.jpg';
 import imgLogo from 'C:/Users/Lenovo/Desktop/react-template/src/img/simple-house-logo.png';
 

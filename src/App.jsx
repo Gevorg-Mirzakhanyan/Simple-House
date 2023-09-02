@@ -1,8 +1,11 @@
 
-import './App.css';
+import './App.scss';
 import React from 'react';
 import Header from './components/Header';
 import Info from './components/Info';
+import Button from './components/Button';
+import Menu from './components/Menu';
+import Footer from './components/Footer';
 
 class App extends React.Component {
   render() {
@@ -10,6 +13,9 @@ class App extends React.Component {
       <div className="App">
         <Header />
         <Info />
+        <Button />
+        <Menu />
+        <Footer />
       </div>
     );
   }
