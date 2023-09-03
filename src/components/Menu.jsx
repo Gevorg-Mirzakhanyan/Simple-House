@@ -14,25 +14,25 @@ class Menu extends React.Component {
         return <>
             <div className='menuList'>
                 <div>
-                    <img src={myImg01} alt='' />
+                    <img className='imgMenu' src={myImg01} alt='' />
                     <h3 className='menuHeader'>Fusce dictum finibus</h3>
                     <p className='menuInfo'>Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan</p>
                     <span className='menuPrice'>$45 / $55</span>
                 </div>
                 <div>
-                    <img src={myImg02} alt='' />
+                    <img className='imgMenu' src={myImg02} alt='' />
                     <h3 className='menuHeader'>Aliquam sagittis</h3>
                     <p className='menuInfo'>Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan</p>
                     <span className='menuPrice'>$65 / $70</span>
                 </div>
                 <div>
-                    <img src={myImg03} alt='' />
+                    <img className='imgMenu' src={myImg03} alt='' />
                     <h3 className='menuHeader'>Sed varius turpis</h3>
                     <p className='menuInfo'>Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan</p>
                     <span className='menuPrice'>$30.50</span>
                 </div>
                 <div>
-                    <img src={myImg04} alt='' />
+                    <img className='imgMenu' src={myImg04} alt='' />
                     <h3 className='menuHeader'>Aliquam sagittis</h3>
                     <p className='menuInfo'>Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan</p>
                     <span className='menuPrice'>$25.50</span>
@@ -40,25 +40,25 @@ class Menu extends React.Component {
             </div>
             <div className='menuList'>
                 <div>
-                    <img src={myImg05} alt='' />
+                    <img className='imgMenu' src={myImg05} alt='' />
                     <h3 className='menuHeader'>Maecenas eget justo</h3>
                     <p className='menuInfo'>Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan</p>
                     <span className='menuPrice'>$80.25</span>
                 </div>
                 <div>
-                    <img src={myImg06} alt='' />
+                    <img className='imgMenu' src={myImg06} alt='' />
                     <h3 className='menuHeader'>Quisque et felis eros</h3>
                     <p className='menuInfo'>Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan</p>
                     <span className='menuPrice'>$20 / $40 / $60</span>
                 </div>
                 <div>
-                    <img src={myImg07} alt='' />
+                    <img className='imgMenu' src={myImg07} alt='' />
                     <h3 className='menuHeader'>Sed ultricies dui</h3>
                     <p className='menuInfo'>Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan</p>
                     <span className='menuPrice'>$94</span>
                 </div>
                 <div>
-                    <img src={myImg08} alt='' />
+                    <img className='imgMenu' src={myImg08} alt='' />
                     <h3 className='menuHeader'>Donec porta consequat</h3>
                     <p className='menuInfo'>Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan</p>
                     <span className='menuPrice'>$15</span>

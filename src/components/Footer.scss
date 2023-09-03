@@ -1,42 +1,5 @@
-.footer {
-    background-color: #FFFFFF;
-    .footerInfo {
-        display: flex;
-        padding: 70px 40px;
-        gap: 40px;
-        background-color: #FFFFFF;
-        margin-bottom: 45px;
-        .footerHeader {
-            color: #1A6692;
-            font-size: 1.3rem;
-            font-weight: 400;
-            margin-bottom: 15px;
-        }
-        .footerText {
-            color: #626364;
-            line-height: 1.8;
-            padding: 0;
-            margin: 0;
-            font-size: 17px;
-            width: 81%;
-            margin-bottom: 70px;
-        }
-        .readMore {
-            border: 1px solid #CCC;
-            text-decoration: none;
-            transition: all 0.3s ease;
-            padding: 15px 30px;
-            font-size: 1rem;
-            float: right;
-            margin-right: 70px;
-            color: #626364;
-            &:hover {
-                background-color: #626364;
-                color: #FFFFFF;
-            }
-        }
-    }
     .underFooter {
+        background-color: #FFFFFF;
         text-align: center;
         color: #626364;
         line-height: 1.8;
@@ -51,4 +14,4 @@
             }
         }
     }
-}
+

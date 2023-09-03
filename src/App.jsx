@@ -6,6 +6,7 @@ import Info from './components/Info';
 import Button from './components/Button';
 import Menu from './components/Menu';
 import Footer from './components/Footer';
+import SimpleSection from './components/SimpleSection';
 
 class App extends React.Component {
   render() {
@@ -15,6 +16,7 @@ class App extends React.Component {
         <Info />
         <Button />
         <Menu />
+        <SimpleSection />
         <Footer />
       </div>
     );

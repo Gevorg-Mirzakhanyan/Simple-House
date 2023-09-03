@@ -4,6 +4,10 @@
     background-color: #FFFFFF;
     padding: 40px 50px;
     line-height: 1.8;
+    .imgMenu {
+        object-fit: cover;
+        width: 100%;
+    }
     .menuHeader {
         color: #1A6692;
         font-size: 1.3rem;
