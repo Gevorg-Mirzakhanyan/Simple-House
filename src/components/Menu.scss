@@ -1,12 +1,15 @@
-.menuList {
-    display: flex;
-    gap: 20px;
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 50px;
     background-color: #FFFFFF;
-    padding: 40px 50px;
+    gap: 30px;
     line-height: 1.8;
     .imgMenu {
-        object-fit: cover;
-        width: 100%;
+            object-fit: cover;
+            width: 100%;
+       
     }
     .menuHeader {
         color: #1A6692;
@@ -23,5 +26,4 @@
         font-size: 1.25rem;
         color: #2F956D;
     }
-
 }
