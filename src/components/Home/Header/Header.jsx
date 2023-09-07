@@ -2,6 +2,7 @@ import React from "react";
 import './Header.scss'
 import imgHeader from 'C:/Users/Lenovo/Desktop/react-template/src/img/simple-house-01.jpg';
 import imgLogo from 'C:/Users/Lenovo/Desktop/react-template/src/img/simple-house-logo.png';
+import { NavLink } from "react-router-dom";
 
 class Header extends React.Component {
 imageStyle = {
@@ -23,13 +24,19 @@ imageStyle = {
                     </div>
                 </div>
                 <div className="headerLink">
-                    <a className="headerLink" href="/" >
+                    
                         <ul className="headerLink">
-                            <li className="homeLink">Home</li>
-                            <li className="listLink">About</li>
-                            <li className="listLink">Contact</li>
+                            <li className="homeLink">
+                                <NavLink>Home</NavLink>
+                            </li>
+                            <li className="listLink">
+                               <NavLink>About</NavLink>
+                            </li>
+                            <li className="listLink">
+                                <NavLink>Contact</NavLink>
+                            </li>
                         </ul>
-                    </a>
+                   
                 </div>
             </div>
             

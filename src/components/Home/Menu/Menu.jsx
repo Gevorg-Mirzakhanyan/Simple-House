@@ -7,8 +7,7 @@ class Menu extends React.Component {
 
         const { data } = this.props;
         return <div className='menu'>
-            
-                {data.map((item) => (
+            {data.map((item) => (
                     <div>
                         <img className='imgMenu' src={item.image} alt='' />
                         <h3 className='menuHeader'>{item.title}</h3>
@@ -16,7 +15,7 @@ class Menu extends React.Component {
                         <span className='menuPrice'>{item.price}</span>
                     </div>
                 ))}
-        </div>
+            </div>
     }
 }
 
