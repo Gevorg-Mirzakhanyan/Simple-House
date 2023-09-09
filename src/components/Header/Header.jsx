@@ -2,7 +2,8 @@ import React from "react";
 import './Header.scss'
 import imgHeader from 'C:/Users/Lenovo/Desktop/react-template/src/img/simple-house-01.jpg';
 import imgLogo from 'C:/Users/Lenovo/Desktop/react-template/src/img/simple-house-logo.png';
-import { NavLink } from "react-router-dom";
+import {Link} from "react-router-dom"
+
 
 class Header extends React.Component {
 imageStyle = {
@@ -27,21 +28,18 @@ imageStyle = {
                     
                         <ul className="headerLink">
                             <li className="homeLink">
-                                <NavLink>Home</NavLink>
+                                <Link to={'/'} className="headerLink">Home</Link>
+                            </li>
+                            <li className="listLink abotLink">
+                               <Link to={'/About'} className="headerLink">About</Link>
                             </li>
                             <li className="listLink">
-                               <NavLink>About</NavLink>
-                            </li>
-                            <li className="listLink">
-                                <NavLink>Contact</NavLink>
+                                <Link to={'/Contact'} className="headerLink">Contact</Link>
                             </li>
                         </ul>
-                   
                 </div>
             </div>
-            
         </header>
-
     }
 }
 

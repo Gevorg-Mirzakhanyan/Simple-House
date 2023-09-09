@@ -1,32 +1,44 @@
 
 import './App.scss';
 import React from 'react';
-import Header from './components/Home/Header/Header';
-import Info from './components/Home/Info/Info';
-import Button from './components/Home/Button/Button';
-import Menu from './components/Home/Menu/Menu';
-import Footer from './components/Home/Footer/Footer';
-import SimpleSection from './components/Home/SimpleSection/SimpleSection';
-import data from './components/Home/Menu/data';
-import { BrowserRouter } from 'react-router-dom';
+import About from './components/About/About';
+import {Switch, Route} from 'react-router-dom';
+
+import Homes from './components/Home/Homes';
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
+import Contact from './components/Contact/contact';
+
+
+
 
 
 class App extends React.Component {
  
   render() {
-  
-    return ( 
-      <BrowserRouter>
-        <div className="App">
-          <Header />
-          <Info />
-          <Button />
-          <Menu data={data}/>
-          <SimpleSection />
-          <Footer />
-        </div>
-      </BrowserRouter>
-    );
+    return (
+      
+      <>
+
+        <Header />
+
+        <Switch>
+            <Route  path={'/'} exact>
+              <Homes />
+            </Route>
+            <Route exact path={'/About'}>
+                <About />
+            </Route>
+            <Route exact path={'/Contact'}>
+                <Contact />
+            </Route>
+         </Switch>
+
+         <Footer />
+    
+      </>
+   
+    )
   }
 }
 
