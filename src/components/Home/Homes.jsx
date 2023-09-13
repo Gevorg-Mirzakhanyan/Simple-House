@@ -7,6 +7,7 @@ import Menu from './Menu/Menu';
 import SimpleSection from './SimpleSection/SimpleSection';
 import data from './Menu/data';
 import imgSimple from  'C:/Users/Lenovo/Desktop/react-template/src/img/img-01.jpg';
+import './Home.scss'
 
 class Homes extends React.Component {
     render() {
@@ -20,7 +21,11 @@ class Homes extends React.Component {
                         description="Total 3 HTML pages are included in this template. Header image has a parallax effect. You can feel free to download, 
                                   edit and use this TemplateMo layout for your commercial or non-commercial websites."
                     />
-                    <Button />
+                    <div className="homeBtn">
+                        <Button name='Pizza'/>
+                        <Button name='Salad'/>
+                        <Button name='Noodle'/>
+                    </div>
                     <Menu data={data}/>
                     <SimpleSection
                         image={imgSimple}

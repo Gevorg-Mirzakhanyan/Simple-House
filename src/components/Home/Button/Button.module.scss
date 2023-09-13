@@ -1,28 +1,17 @@
 $white-color: #FFFFFF;
 $green-color: #2F956D;
-
-.menuBtn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: $white-color;
-    gap: 20px;
-    .clickBtn {
+   
+.click {
         padding: 10px 30px;
         font-size: 17px;
         border: 1px solid $green-color;
         background-color: $white-color;
         color: $green-color;
-        cursor: pointer;
+        text-decoration: none;
         &:hover {
             background-color: $green-color;
             color: $white-color;
         }
     }
-    .pizza {
-        background-color: $green-color;
-        color: $white-color;
-    }
-    
-}
+
 

@@ -11,7 +11,7 @@ class Info extends React.Component {
                     {this.props.title}
                 </h2>
                 <span className="infoText">
-                    {this.props.description} <a href={this.props.link} target="">{this.props.text}</a> {this.props.description2}
+                    {this.props.description} <a href={this.props.link} target="blank">{this.props.text}</a> {this.props.description2}
                 </span>
             
             </div>

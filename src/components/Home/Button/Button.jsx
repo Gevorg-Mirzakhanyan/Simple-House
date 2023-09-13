@@ -1,12 +1,13 @@
 import React from "react";
-import './Button.scss';
+import cl from './Button.module.scss';
+import { NavLink } from "react-router-dom/cjs/react-router-dom.min";
 class Button extends React.Component {
     render() {
-        return <div className="menuBtn">
-            <button className="clickBtn pizza">Pizza</button>
-            <button className="clickBtn">Salad</button>
-            <button className="clickBtn">Noodle</button>
+        return (
+        <div>
+           <NavLink to={'/'}  className={cl.click}>{this.props.name}</NavLink>
         </div>
+        )
     }
 }
 
