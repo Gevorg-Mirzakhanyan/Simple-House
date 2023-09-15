@@ -23,13 +23,13 @@ class AddressInfo extends React.Component {
                     </a>
                 </div>
                 <div className="addressIcon">
-                    <a href="/#" >
+                    <a href="https://www.facebook.com/" target="_">
                         <FaFacebook />
                     </a>
-                    <a href="/#">
+                    <a href="https://twitter.com/" target="_">
                         <FaTwitter />
                     </a>
-                    <a href="/#">
+                    <a href="https://www.instagram.com/" target="_">
                         <FaInstagram />
                     </a>
                 </div>

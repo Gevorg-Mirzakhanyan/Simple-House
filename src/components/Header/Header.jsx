@@ -9,7 +9,8 @@ class Header extends React.Component {
 imageStyle = {
         backgroundImage: `url(${imgHeader})`,
         width: '100%',
-        height: '450px',
+        minHeight: '550px',
+        backgroundAttachment: 'fixed',
         backgroundSize: 'cover',
         backgroundPosition: 'center'
         

@@ -23,5 +23,17 @@
             float: right;
             font-size: 36px;
         }
+        &:hover {
+            color: #09C
+        }
+    }
+    .mesDescription {
+        color: #626364;
+        line-height: 1.8;
+        padding: 5px 20px 30px;
+        margin: 0;
+        font-size: 17px;
+        width: 100%;
+        max-width: 780px;
     }
 }

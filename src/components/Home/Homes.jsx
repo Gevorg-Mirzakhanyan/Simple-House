@@ -33,8 +33,9 @@ class Homes extends React.Component {
                         title="Maecenas nulla neque"
                         text="Redistributing this template as a downloadable ZIP file on any template collection site is strictly prohibited. You will need to"
                         link="https://templatemo.com/contact"
-                        text2="talk to us"
+                        text2="talk to us"  
                         text3="for additional permissions about our templates. Thank you."
+                        readMore='readMore'
                         textBtn="Read More"
                     />
                   </div>
