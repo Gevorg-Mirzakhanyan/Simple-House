@@ -18,7 +18,7 @@ class App extends React.Component {
   render() {
     return (
       
-      <>
+      <div className='app'>
 
         <Header />
 
@@ -39,7 +39,7 @@ class App extends React.Component {
 
          <Footer />
     
-      </>
+      </div>
    
     )
   }

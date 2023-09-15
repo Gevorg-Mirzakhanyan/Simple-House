@@ -1,10 +1,10 @@
 import React from "react"
 import Info from "../Home/Info/Info";
-import SimpleSection from "../Home/SimpleSection/SimpleSection";
 import aboutImg from 'C:/Users/Lenovo/Desktop/react-template/src/img/about-06.jpg'
 import Person from "./Person/Person";
 import Image from "./Image/Image";
 import ReadMore from "./AboutReadMore/ReadMore";
+import AsideSection from "../Home/AsideSection/AsideSection";
 
 
 
@@ -21,7 +21,7 @@ class About extends React.Component {
             <Person />
             <Image />
             <ReadMore />
-            <SimpleSection 
+            <AsideSection 
                 image={aboutImg}
                 title="History of our restaurant"
                 text="Sed ligula risus, interdum aliquet imperdiet sit amet, auctor sit amet justo. Maecenas posuere lorem id augue interdum vehicula. Praesent sed leo eget libero ultricies congue.

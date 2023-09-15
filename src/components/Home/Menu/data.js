@@ -57,6 +57,11 @@ const data = [
         text: 'Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan',
         price: '$15'
     }
-]
+];
+
+
 
 export default data;
+
+
+

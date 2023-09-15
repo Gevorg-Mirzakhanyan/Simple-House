@@ -4,10 +4,14 @@ import React from "react";
 import Info from './Info/Info';
 import Button from './Button/Button';
 import Menu from './Menu/Menu';
-import SimpleSection from './SimpleSection/SimpleSection';
+import AsideSection from "./AsideSection/AsideSection";
 import data from './Menu/data';
 import imgSimple from  'C:/Users/Lenovo/Desktop/react-template/src/img/img-01.jpg';
 import './Home.scss'
+
+
+
+
 
 class Homes extends React.Component {
     render() {
@@ -21,13 +25,10 @@ class Homes extends React.Component {
                         description="Total 3 HTML pages are included in this template. Header image has a parallax effect. You can feel free to download, 
                                   edit and use this TemplateMo layout for your commercial or non-commercial websites."
                     />
-                    <div className="homeBtn">
-                        <Button name='Pizza'/>
-                        <Button name='Salad'/>
-                        <Button name='Noodle'/>
-                    </div>
+                    <Button />
+                    
                     <Menu data={data}/>
-                    <SimpleSection
+                    <AsideSection
                         image={imgSimple}
                         title="Maecenas nulla neque"
                         text="Redistributing this template as a downloadable ZIP file on any template collection site is strictly prohibited. You will need to"
