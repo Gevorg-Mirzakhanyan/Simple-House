@@ -30,7 +30,7 @@ const aboutData= [
         position: 'Kitchen Manager',
         info: 'Aenean sapien sem, ultricies sed vulputate et, auctor vel mauris. Integer sit amet diam eget est facilisis lacinia vitae',
         page: <FaFacebook />,
-        page2: <FaInstagram />,
+        page3: <FaInstagram />,
     },
     {
         image: aboutImg04,

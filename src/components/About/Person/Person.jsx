@@ -15,16 +15,16 @@ class Person extends React.Component {
                             <p className='position'>{item.position}</p>
                             <p className="info">{item.info}</p>
                             <div className="page">
-                                <a href="/" >
+                                <a href="https://www.facebook.com" target="_" >
                                    {item.page}
                                 </a>
-                                <a href="/" >
+                                <a href="https://twitter.com/" target="_" >
                                    {item.page2}
                                 </a>
-                                <a href="/" >
+                                <a href='https://www.instagram.com/' target="_" >
                                    {item.page3}
                                 </a>
-                                <a href="/" >
+                                <a href="https://www.youtube.com/" target="_" >
                                    {item.page4}
                                 </a>
                             </div>

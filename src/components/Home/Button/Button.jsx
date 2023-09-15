@@ -1,14 +1,18 @@
 import React from "react";
 import cl from './Button.module.scss';
 
+
+
+
 class Button extends React.Component {
+   
     render() {
+      
         return (
         <div className={cl.homeBtn}>
-            <button className={cl.click}>Pizza</button>
-            <button className={cl.click}>Salad</button>
-            <button className={cl.click}>Noodle</button>
-        
+            <button  className={cl.click} activeClassName={cl.active}>Pizza</button>
+            <button  className={cl.click} activeClassName={cl.active}>Salad</button>
+            <button  className={cl.click} activeClassName={cl.active}>Noodle</button>
         </div>
         )
     }

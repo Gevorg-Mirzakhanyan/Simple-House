@@ -11,7 +11,7 @@ class AsideSection extends React.Component {
             <div className='secondSection'>
                 <h3 className='asideHeader'>{this.props.title}</h3>
                 <p className='asideText'>{this.props.text} <a href={this.props.link} target='blank'>{this.props.text2}</a> {this.props.text3}</p>
-                <a className='readMore' href='/' >{this.props.textBtn}</a>
+                <a className='readMore' href='/About' >{this.props.textBtn}</a>
             </div>
          </div>
         )
