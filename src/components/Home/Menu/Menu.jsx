@@ -8,7 +8,7 @@ class Menu extends React.Component {
 
         const { data } = this.props;
         return <div className='menu'>
-            {data.map((item) => (
+            {data.dataPizza.map((item) => (
                     <div>
                         <img className='imgMenu' src={item.image} alt='' />
                         <h3 className='menuHeader'>{item.title}</h3>

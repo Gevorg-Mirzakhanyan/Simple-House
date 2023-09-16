@@ -10,9 +10,6 @@ import imgSimple from  'C:/Users/Lenovo/Desktop/react-template/src/img/img-01.jp
 import './Home.scss'
 
 
-
-
-
 class Homes extends React.Component {
     render() {
         return (

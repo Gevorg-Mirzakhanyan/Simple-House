@@ -12,8 +12,7 @@ imageStyle = {
         minHeight: '550px',
         backgroundAttachment: 'fixed',
         backgroundSize: 'cover',
-        backgroundPosition: 'center'
-        
+        backgroundPosition: 'center',
     }
     render() {
         return <header>
