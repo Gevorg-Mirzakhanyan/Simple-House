@@ -6,13 +6,13 @@ class Navbar extends React.Component {
         return (
             <nav className={cl.navLink}>
                     <div className={cl.item}>
-                        <NavLink to={'/Home'}  activeClassName={cl.active}>Home</NavLink>
+                        <NavLink to={'/'}  activeClassName={cl.active} exact>Home</NavLink>
                     </div>
                     <div className={cl.item}>
-                        <NavLink to={'/About'} activeClassName={cl.active} >About</NavLink>
+                        <NavLink to={'/About'} activeClassName={cl.active} exact >About</NavLink>
                     </div>
                     <div className={cl.item}>
-                        <NavLink to={'/Contact'} activeClassName={cl.active} >Contact</NavLink>
+                        <NavLink to={'/Contact'} activeClassName={cl.active} exact >Contact</NavLink>
                     </div>
               
             </nav>

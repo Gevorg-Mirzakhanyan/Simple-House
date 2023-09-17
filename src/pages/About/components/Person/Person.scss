@@ -1,0 +1,44 @@
+@import '../../../../assets/globalComponent/variables/variables.scss';
+
+.personContainer {
+    padding: 0 40px;
+    background-color: $white-color;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 80px;
+    .aboutPerson {
+        display: flex;
+        gap: 20px;
+        .aboutImg {
+        object-fit: cover;
+        width: 30%;
+        }
+        .name {
+            font-size: 1.6rem;
+            font-weight: 300;
+            color: $blue-color;
+            margin-bottom: 5px
+        }
+        .position {
+            color: #C39;
+            margin-bottom: 20px;
+            line-height: 1.8;
+        }
+        .info {
+            color: $grey-color;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+        .page {
+            display: flex;
+            gap: 20px;
+            font-size: 1.3rem;
+            padding: 10px;
+            margin-bottom: 15px;  
+            a {
+                color: $grey-color;
+            }  
+           
+        }
+}
+}

@@ -20,3 +20,9 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+
+
+
+// arandzin page eja bacvum vorum linum en home about contact
+//component papkayi mej linum en global componentner@

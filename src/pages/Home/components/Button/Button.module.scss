@@ -1,0 +1,24 @@
+@import '../../../../assets/globalComponent/variables/variables.scss';
+
+.homeBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;  
+    .click {
+        padding: 15px 30px;
+        font-size: 17px;
+        border: 1px solid $green-color;
+        background-color: $white-color;
+        color: $green-color;
+        text-decoration: none;
+        cursor: pointer;
+        &:hover {
+            background-color: $green-color;
+            color: $white-color;
+        }
+    }
+}
+
+
+

@@ -1,0 +1,40 @@
+@import '../../../../../assets/globalComponent/variables/variables.scss';
+
+.addressInfo {
+    max-width: 315px;
+    .addressHeader {
+        color: #319966;
+        font-size: 1.6rem;
+        font-weight: 300;
+        margin-bottom: 30px;
+    }
+    .addressText {
+        color: $grey-color;
+        line-height: 1.8;
+        font-style: normal;
+        margin-bottom: 50px;
+    }
+    .info {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-bottom: 25px;
+        .phoneNumber {
+            color: $grey-color;
+            text-decoration: none;
+            .phoneIcon {
+                color: #319966;
+                margin-right: 25px;
+                font-weight: 900;
+            }
+        }
+    }
+    .addressIcon {
+        display: flex;
+        gap: 20px;
+        a {
+            color: $grey-color;
+            font-size: 1.3rem;
+        }
+    }   
+}

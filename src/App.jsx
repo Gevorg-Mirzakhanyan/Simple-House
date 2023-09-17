@@ -1,12 +1,13 @@
 
 import './App.scss';
 import React from 'react';
-import About from './components/About/About';
+
 import {Switch, Route} from 'react-router-dom';
-import Homes from './components/Home/Homes';
+import Homes from './pages/Home/Homes'
 import Header from './components/Header/Header';
+import About from './pages/About/About';
 import Footer from './components/Footer/Footer';
-import Contact from './components/Contact/contact';
+import Contact from './pages/Contact/contact';
 
 
 class App extends React.Component {
@@ -20,9 +21,6 @@ class App extends React.Component {
         <Switch>
             <Route  path={'/'} exact>
                 <Homes />
-            </Route>
-            <Route  path={'/Home'} exact>
-              <Homes />
             </Route>
             <Route exact path={'/About'}>
                 <About />

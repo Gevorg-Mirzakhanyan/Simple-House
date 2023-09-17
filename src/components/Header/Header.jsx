@@ -1,7 +1,7 @@
 import React from "react";
 import cl from './Header.module.scss';
-import imgHeader from 'C:/Users/Lenovo/Desktop/react-template/src/img/simple-house-01.jpg';
-import imgLogo from 'C:/Users/Lenovo/Desktop/react-template/src/img/simple-house-logo.png';
+import imgHeader from '../../assets/img/simple-house-01.jpg';
+import imgLogo from '../../assets/img/simple-house-logo.png';
 import Navbar from "./Navbar";
 
 
@@ -11,7 +11,7 @@ imageStyle = {
         width: '100%',
         minHeight: '550px',
         backgroundAttachment: 'fixed',
-        backgroundSize: 'cover',
+        backgroundSize: '100%',
         backgroundPosition: 'center',
     }
     render() {
